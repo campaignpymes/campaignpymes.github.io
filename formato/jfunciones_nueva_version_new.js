@@ -321,7 +321,7 @@ var adicional=0;
             if ((tipoCliente == 'PJ' && (buro == 'G1' || buro == 'G2' || buro == 'G3' || buro == 'G4' || buro == 'G5' || buro == 'NB' || buro == 'GNB')) || (tipoCliente == 'PNN' && (buro == 'G1' || buro == 'G2' || buro == 'G3' || buro == 'G4' || buro == 'G5' || buro == 'NB' || buro == 'GNB'))) {
                 if (edadRL >= 25) {
                     if ((tipoCliente == 'PJ' && antiguedad >= 1) || (tipoCliente == 'PNN' && antiguedad >= 2)) {
-                        if(declarado < 0.50){
+                        if(declarado < 0.60){
                             
 				if(cal_rat_pat ==1){
 					if(cal_rat_cv ==1){
@@ -486,7 +486,7 @@ var adicional=0;
       }
 	}
 	
-     if(declarado >= 0.50){
+     if(declarado >= 0.60){
 		 if(flg_retorno==""){
 			 flg_retorno = "- El cliente ha superado el limite de informalidad";	
 		 }else{
