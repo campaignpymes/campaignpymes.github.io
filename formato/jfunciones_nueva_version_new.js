@@ -250,14 +250,14 @@ function EvaluarFiltros1(){
         if(tipoCliente == "PJ" && nroEntidades >=6){			
             estado = false;
 			
-        }else if(tipoCliente == "PNN" && nroEntidades >= 5){
+        }else if(tipoCliente == "PNN" && nroEntidades >= 6){
             estado = false;
         }
     }
     if(cobertura == 1.3){
-        if(tipoCliente == "PJ" && nroEntidades >=4){
+        if(tipoCliente == "PJ" && nroEntidades >=6){
             estado = false;
-        }else if(tipoCliente == "PNN" && nroEntidades >= 3){
+        }else if(tipoCliente == "PNN" && nroEntidades >= 6){
             estado = false;
         }
     }
@@ -3107,3 +3107,4 @@ function AlertaInformalidad(){
         document.getElementById("alertaInf").style.display = 'none';
     }
 }
+
